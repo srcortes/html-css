@@ -1,0 +1,38 @@
+/* ESTO ES UN SELECTOR UNIVERSAL
+* {
+  color: red;
+}
+*/
+
+body {
+  font-size:15px;
+  color: pink
+}
+
+/* AQUI PODEMOS VER SELECTORES DESCEDENTES */
+div p {
+  font-size: 25px;
+  color: white;
+  background: green
+}
+
+div h2 {
+  font-size: 30px;
+  color:blue;
+}
+
+div a {
+  color:red;
+  font-size: 50px
+}
+
+/* Esto es como se llama una clase "className"*/
+.parrafo {
+  color:blue;
+  font-style:italic;
+}
+
+/* Esta es la forma de llamar un id*/
+#testing{
+  color:magenta;
+}

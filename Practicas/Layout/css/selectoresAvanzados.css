@@ -1,0 +1,27 @@
+/* HERE WE SEE LIKE STYLE APPLY
+ONLY TO LABEL P THAT ARE INSIDE LABEL DIV
+*/
+div > p{
+  font-size: 90px;
+}
+
+/*HERE WE SEE AN EXAMPLE ABOUT STYLE CSS
+THAT ARE APPLY ONLY ELEMENT TYPE
+*/
+input[type]{}
+
+/* HERE WE SEE AN EXAMPLE WHEN WE CAN APPLY
+STYLE ONLY TO INPUTS TYPE=TEXT
+*/
+input[type="text"]{}
+
+/*
+EXAMPLE ABOUT HERENCY
+*/
+body{
+  font-size: 120px;
+}
+
+article{
+  font-size: 10px;
+}
