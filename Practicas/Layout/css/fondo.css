@@ -1,3 +1,25 @@
-body{
-  background:black; 
+.div-1 {
+    background: url('../../../imagenes/6.jpg') no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 900px;
+}
+
+.contenedorImagen {
+  background: url('../../../imagenes/6.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  /*HERE CAN MODIFY POSITION ABOUT IMAGE*/
+  background-attachment:fixed;
+  background-position: center;
+
+  background-color:
+}
+
+.parrafo {
+  font-size: 50px;
+  font-style:italic;
+  color: black;
+  justify-content: center;
+
 }
