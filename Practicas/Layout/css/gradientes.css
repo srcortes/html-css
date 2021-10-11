@@ -1,0 +1,28 @@
+.fondo {
+  width: cover;
+  height: 500px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#050200+0,8f0222+44,6d0019+100 */
+  background: #050200; /* Old browsers */
+  background: -moz-linear-gradient(top,  #050200 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #050200 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #050200 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050200', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.img{
+  background: url('../img/new.png') center fixed;
+  background-position: right;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 20px solid #969696;
+}
+
+body{
+  background: url('../img/double-bubble-dark.png') center fixed;
+}
+
+.parrafo{
+  font-size: 25px;
+  color: white;
+}

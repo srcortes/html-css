@@ -1,12 +1,11 @@
 .div-1 {
-    background: url('../../../imagenes/6.jpg') no-repeat center center;
-    background-attachment: scroll;
+    background: url('../img/new.png') center center fixed;
     background-size: cover;
-    height: 900px;
+    height: 500px;
 }
 
 .contenedorImagen {
-  background: url('../../../imagenes/6.jpg');
+  background: url('../../../imagenes/new.png');
   background-repeat: no-repeat;
   background-size: 100%, 100%;
   /*HERE CAN MODIFY POSITION ABOUT IMAGE*/
