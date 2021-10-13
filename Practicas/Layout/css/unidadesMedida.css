@@ -1,0 +1,23 @@
+body{
+  font-size: 30px;
+}
+
+/*EM REFER TO INHERITE FROM ITS FATHER ELEMENT CLOSER IN THIS
+CASE INHERITED FROM BODY */
+p {
+  font-size:1em;
+}
+
+div{
+  width: 3.5em;
+  height: 3.5em;
+  background: #000
+}
+
+.padre{
+
+}
+
+.hijo{
+
+}

@@ -1,0 +1,23 @@
+/*HERE REMEMBER, ALWAYS IF THE WORD HAVE SPACES IT MUST BETWEEN COMILLAS*/
+body{
+  font-family: "Times New Roman"cursive, arial, helvetica;
+  font-size: 20px
+}
+
+p{
+  text-align: justify;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  line-height:normal; 
+}
+
+h1{
+  font-family: fantasy, arial;
+  font-size: 15px;
+  color: gray;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}

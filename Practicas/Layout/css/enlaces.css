@@ -1,11 +1,25 @@
 a {
   font-size: 20px;
-  color:black;
   text-decoration: none;
-  text-shadow: blue;
+  text-shadow: red;
 }
 
 a:hover {
-  background: #f9a03f;
-  
+  background: #000;
+  border-radius: 10px
+}
+
+a:link{
+  text-decoration: none;
+  color: magenta
+}
+
+a:visited{
+  text-decoration:underline;
+  color: red;
+}
+
+a:active{
+  text-decoration:underline;
+  color:green
 }
