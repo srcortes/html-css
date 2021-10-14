@@ -1,5 +1,7 @@
-body{
-  font-size: 30px;
+.body {
+  width: 500px;
+  height: 500px;
+  font-size: 40px;
 }
 
 /*EM REFER TO INHERITE FROM ITS FATHER ELEMENT CLOSER IN THIS
@@ -8,16 +10,18 @@ p {
   font-size:1em;
 }
 
-div{
-  width: 3.5em;
-  height: 3.5em;
-  background: #000
-}
-
-.padre{
+.padre {
+  font-size: 50px
 
 }
 
-.hijo{
+/*REM REFER TO INHERITE FROM THE SUPER FATHER
+IN THIS CASE THE INHERITED IS FROM BODY*/
+.hijo {
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff
 
 }
