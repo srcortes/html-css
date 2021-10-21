@@ -1,0 +1,35 @@
+/*THE COLOR CAN BE USE IN HEXADECIMAL AND RGB*/
+.caja {
+  width: 200px;
+  height: 200px;
+  /*background: #000*/
+  background: rgb(76, 175, 80);
+  float:left;
+}
+
+.caja2 {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  /*background: rgb(76, 175, 80);*/
+  float:left;
+}
+
+.caja3 {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  /*background: rgb(76, 175, 80);*/
+  float:left;
+
+}
+
+/*HERE EXAMPLE USING RGBA THE LAST VOWEL MEANS LIKE TRANSPARENCY
+IN THIS FIELD IS ONLY ALLOW VALUES BETWEEN 0 AND 1
+*/
+.caja4 {
+  width: 900px;
+  height: 200px;
+  background: rgba(0, 0, 0, 1);
+  float:left;
+}

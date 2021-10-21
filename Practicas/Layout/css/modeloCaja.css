@@ -1,0 +1,29 @@
+body{
+  font-family: cursive;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/*HERE CAN WE SEE A SELECTOR UNIVERSAL
+FOR GIVING MARGIN FOR ALL DOCUMENT*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*The field margin we can see it has tow values
+the firts value is for margin up and down, teh second values
+ is for left and rigth*/
+.caja {
+  background: #0353a4;
+  width: auto;
+  margin: 2px 15px;
+  padding: 20px 0px;
+  border-radius: 15px solid;
+}
+
+.caja p{
+  font-family: monospace;
+  font-size: 20px;
+  background:  #eee5e9;
+}

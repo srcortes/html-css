@@ -1,0 +1,21 @@
+body{
+  background: #f2f2f2;
+  font-family: lucida;
+
+}
+
+h1, p, div {
+  background: #ccc;
+  display: inline-block;
+}
+
+a{
+  color: #fff;
+  background: #000
+  display:inline-block;
+}
+
+a:hover {
+  background: #000;
+  border-radius: 10px
+}
