@@ -1,0 +1,153 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #FEE1C7
+}
+
+.input{
+  background: transparent;
+  border:none;
+  border-bottom: 1px solid #FFF;
+  display: inline-inline-block;
+  color:white;
+  margin: 15px 20px;
+  padding: 25px 10px;
+  display: inline-block;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.6s;
+}
+
+.input:hover{
+  background-color: #235B80;
+  opacity: .8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.caja{
+  width: 200px;
+  height: 200px;
+  background: #2579F5;
+  margin: 20px;
+}
+
+.caja1{
+  width: 500px;
+  height: 200px;
+  background: #000;
+  margin: 20px;
+}
+
+.caja2{
+  width:100%;
+  background: #000;
+  position: fixed;
+  justify-content: center;
+
+}
+
+.caja3{
+  width:100%;
+  background: #5871CD;
+  position:relative;
+  top:500px;
+
+}
+
+/*static is a default value*/
+.posicionada{
+  background: #6695e8;
+  position: static;
+  top: 200px;
+}
+
+
+/* relative, allow position a box and then
+move from original place*/
+.posicionada2{
+  height: 300px;
+  position: relative;
+  border-left: 10px;
+  top: 0;
+  right: 0;
+  left: 500px;
+  bottom:800px;
+}
+
+.posicionada4{
+  height: 500px;
+  background: #9590A8;
+  position: relative;
+
+}
+
+/*HERE THERE IS */
+.posicionada5{
+  height: 300px;
+  width: 600PX;
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 800px;
+  bottom:800px;
+
+}
+
+.btn{
+  background-image:url('../img/new.png');
+  font-family: sans-serif arial;
+  background: #F62431;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 20px 15px 15px;
+  display:inline-block;
+  margin: 0 20px 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.6s;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.btn:hover{
+  background-color: #56C4DC;
+  opacity: .8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scaleX(1.1) scaleY(1.1);
+
+}
+
+.extra-big{
+  color:#fff;
+  font-size: 20px;
+  opacity: .3px;
+  width: 600px;
+  height:20px;
+  position: relative;
+  left: 600px;
+}
+
+.azul{
+  background: #A6191F;
+  border-radius: 20px;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.parrafo{
+  text-align: center;
+  color: #000;
+}
