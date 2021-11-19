@@ -16,7 +16,10 @@ div {
   padding: 15px 20px;
   display: inline-block;
   margin: 0 10px;
-  -webkit-transition-duration: 0.4s;
+
+  border-radius: .5rem;
+  border: none;
+  transition: background-color .3s ease;
   transition-duration: 0.6s;
   border: solid;
   text-align: center;
@@ -31,6 +34,7 @@ div {
   opacity: .8;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transform: scaleX(1.1) scaleY(1.1);
+  cursor: pointer;
 
 }
 
