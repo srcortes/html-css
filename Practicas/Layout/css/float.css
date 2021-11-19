@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  background: #E1E5F2;
+}
+
+.cajaPadre {
+  background: #03045E;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.caja{
+  width: 200px;
+  height: 80%;
+  color:#fff;
+  font-size: 13px;
+  height: 200px;
+  background: #023E8A;
+  margin:20px;
+}
+
+.uno{
+  float:left;
+}
+
+.dos{
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+.articulo{
+  width: 800px;
+  background: #ccc;
+}
+
+.articulo img{
+  float: left;
+}

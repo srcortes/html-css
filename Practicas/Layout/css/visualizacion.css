@@ -1,0 +1,90 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*The property none hidden the element*/
+/*div, a{
+  background: #ccc;
+  font-size: 1em;
+  display: none;
+  padding: 15px 10px
+}*/
+
+/*div, a {
+  background: #ccc;
+  font-size: 2rem;
+  visibility: hidden;
+}*/
+
+div, a {
+  background: #ccc;
+  font-size: 1em;
+  display: inline-block;
+  padding: 15px 10px
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--gris2);
+  display: inline-block;
+  padding: 20px;
+}
+
+.caja {
+  color: #8B5FBF;
+  background: #E3879E;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+}
+
+aside {
+      background-color: var(--blanco);
+      flex: 0 0 300px;
+  }
+  .seccion-principal {
+      flex: 1;
+  }
+
+.contenedor{
+  color:#1d3557;
+  background: #e63946;
+  margin: 20px 0;
+  width: 600px;
+}
+
+.izquierda{
+  float: left;
+}
+
+.derecha{
+  float:right;
+}
+
+.contenedor2 .caja{
+  width: 200px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.azul{
+  left: 200px;
+  background: #1d3557
+}
+
+.gris{
+  background: #000
+}
