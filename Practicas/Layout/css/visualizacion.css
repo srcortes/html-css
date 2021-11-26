@@ -30,7 +30,7 @@ div, a {
   background: #ccc;
   font-size: 1em;
   display: inline-block;
-  padding: 15px 10px
+  
 
 }
 
@@ -48,21 +48,16 @@ a {
   width: 200px;
   height: 200px;
   overflow: auto;
+  display:none;
 }
 
-aside {
-      background-color: var(--blanco);
-      flex: 0 0 300px;
-  }
-  .seccion-principal {
-      flex: 1;
-  }
 
 .contenedor{
   color:#1d3557;
   background: #e63946;
-  margin: 20px 0;
   width: 600px;
+  overflow: hidden;
+
 }
 
 .izquierda{
@@ -77,14 +72,16 @@ aside {
   width: 200px;
   height: 150px;
   position: relative;
-  overflow: hidden;
+
 }
 
 .azul{
   left: 200px;
-  background: #1d3557
+  background: #1d3557;
+  z-index:10
 }
 
 .gris{
-  background: #000
+  background: #000;
+  z-index:15
 }

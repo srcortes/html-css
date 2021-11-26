@@ -2,7 +2,7 @@
 ONLY TO LABEL P THAT ARE INSIDE LABEL DIV
 */
 div > p{
-  font-size: 90px;
+  font-size: 100px;
 }
 
 /*HERE WE SEE AN EXAMPLE ABOUT STYLE CSS
@@ -19,7 +19,7 @@ input[type="text"]{}
 EXAMPLE ABOUT HERENCY
 */
 body{
-  font-size: 120px;
+  font-size: 50px;
 }
 
 article{

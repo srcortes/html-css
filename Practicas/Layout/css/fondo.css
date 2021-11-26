@@ -1,24 +1,32 @@
-.div-1 {
-    background: url('../img/new.png') center center fixed;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #faf9f9;
+}
+
+.div-1{
+    background: url('../img/new.png') no-repeat fixed center center;
     background-size: cover;
     height: 500px;
 }
 
-.contenedorImagen {
-  background: url('../../../imagenes/new.png');
-  background-repeat: no-repeat;
-  background-size: 100%, 100%;
-  /*HERE CAN MODIFY POSITION ABOUT IMAGE*/
-  background-attachment:fixed;
-  background-position: center;
+.footer{
+  background-size: cover;
+  height: 500px;
+  background-attachment: scroll;
 
-  background-color:
 }
+
 
 .parrafo {
   font-size: 50px;
   font-style:italic;
   color: black;
   justify-content: center;
+  text-align: center;
+  border-bottom: 15px
 
 }
