@@ -4,6 +4,7 @@
 }
 
 body{
+<<<<<<< HEAD
   background: #cb997e
 }
 
@@ -12,14 +13,34 @@ body{
 }
 
 .galeria img{
+=======
+  background: #0466c8
+}
+
+.galeria{
+  width: cover;
+}
+
+.galeria img {
+>>>>>>> fe2d543... training css
   vertical-align: top;
   width: 400px;
   margin: 20px;
   padding: 5px;
+<<<<<<< HEAD
   border: 1px solid
 }
 
 .prueba{
   width: 412px;
   height: 512px;
+=======
+  opacity: 0.5;
+  border: 1px solid #EBBAB9;
+}
+
+.galeria img:hover{
+  border: 1px solid #407076;
+  opacity: 1
+>>>>>>> fe2d543... training css
 }
