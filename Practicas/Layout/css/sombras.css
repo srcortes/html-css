@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #fff;
+
+}
+
+/*
+  Firts value-> belong to shadows thorugh the rigth side
+  Second value-> belog to shadow through the up and down
+  Third value-> Is belong to strong shadow if value is less then the shadow is major
+*/
+.texto{
+  text-shadow: 2px 2px 30px #97B1A6;
+  color:#023047;
+  text-align: center;
+}
+
+.caja{
+  height: 100px;
+  background: #1d3557;
+  border: 5px;
+}
+
+.caja2{
+  display: inline-block;
+  border-top: 1px solid rgb(221, 221, 221) !important;
+  justify-content: center;
+  margin-left: 10%;
+  position: absolute;
+  float: left;
+
+
+}
+.caja3{
+  position: absolute;
+  float:left;
+  background:black
+}
+
+.caja4{
+  position: absolute;
+  float:left;
+  background:black
+}
+
+.input{
+  border: none;
+  border-bottom: 1px solid #000;
+  display: inline-grid;
+  color:gray;
+  margin: 15px 20px;
+  padding: 25px 10px;
+  display: inline-block;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: center;
+
+}
+.input:hover{
+  background-color: #f1faee;
+  opacity: .8;
+  border-bottom: 1px solid green;
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.9s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.btn{
+  display: inline;
+  box-sizing: border-box;
+  background: #f1faee;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 0 10px;
+  border-radius: .5rem;
+  border: none;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.btn:hover{
+  background-color: #56C4DC;
+  opacity: .8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scaleX(1.1) scaleY(1.1);
+  cursor: pointer;
+  transition: background-color .3s ease;
+  transition-duration: 0.6s;
+
+
+}
+
+@media all and (max-width:30em){
+ a.button2{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+
+.btn1{
+  display: inline;
+  position: relative;
+  box-sizing: border-box;
+  background: #f1faee;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 20px;
+
+  border-radius: .5rem;
+  border: none;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.btn1:hover{
+  background-color: #56C4DC;
+  opacity: .8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scaleX(1.1) scaleY(1.1);
+  cursor: pointer;
+  transition: background-color .3s ease;
+  transition-duration: 0.6s;
+
+
+}
+
+@media all and (max-width:30em){
+ a.button2{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+
+aside {
+  display: inline-block;
+  width: 200px;
+  min-height: 400px;
+  background: #f1faee;
+  font-size: 2rem;
+
+}
+
+.footer{
+  padding-top: 24px !important;
+  padding-bottom: 26px !important;
+  border-top: 1px solid rgb(221, 221, 221) !important;
+
+}
