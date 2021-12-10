@@ -1,0 +1,37 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+div{
+	background: #9d0208;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.caja1{
+	border: 7px solid #000;
+
+}
+
+.caja2{
+	border: 2px dotted;
+}
+
+.caja3{
+	border: 7px dashed;	
+}
+
+.caja4{
+	border: ;
+}
+
+.caja5{
+	
+}
+
+.caja6{
+	
+}
